@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Logs / packet captures
+*.log
+*.pcap
+*.pcapng
+
+# Virtual machines / disk images
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.iso
+*.ova
+*.ovf
+
+# Generated artifacts
+artifacts/
+output/
