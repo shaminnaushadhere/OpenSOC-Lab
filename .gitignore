@@ -31,3 +31,19 @@ venv/
 # Generated artifacts
 artifacts/
 output/
+
+# Downloaded third-party tools
+/tools/sysmon/
+# Additional sensitive files
+*.pfx
+*.p12
+*.p8
+*.kdbx
+*.secret
+*.token
+# Local credentials and backups
+credentials/
+secrets/
+*.bak
+
+.db
